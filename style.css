@@ -1,0 +1,59 @@
+
+* {
+    font-family: "2Roboto", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    justify-content: center;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardImage {
+    width: 10em;
+}
+
+.playersDiv {
+    display: flex;
+    padding: 2%;
+    margin-left: 22%;
+    flex-direction: row;
+    height: 10%;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    border: 10px solid rgba(0, 0, 0, 0.281);
+    border-radius: 20px;
+    background-color: rgba(1, 22, 11, 0.551);
+    }
+
+button {
+    height: 50px;
+    width: 10rem;
+    border: 3px solid black;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+
+#cardsELement, #dealerCards {
+    margin: 20px 0 20px 20px;
+}
+
+.playing {
+    padding: 2%;
+    margin-top: 5px;
+    margin-left: 22%;
+    border: 2px solid black;
+    width: 60%;
+    height: 700px;
+    border: 10px solid rgba(0, 0, 0, 0.281);
+    border-radius: 20px;
+    background-color: rgba(1, 22, 11, 0.551);
+    }
+
+#result {
+    color: white;
+}
